@@ -23,15 +23,8 @@
 2. Wireshark 스니핑으로 데이터 노출 재현  
 3. **TLS 적용 + JWT 인증 절차 재설계**  
 4. 개선된 환경에서 패킷 보안성 비교
-
 ---
-
-
-
-
-
 ##  아키텍처 구성도
-
 ![아키텍처](https://raw.githubusercontent.com/dustluv2532-web/portfolio/main/images/chat_arch.png)
 
 **구성 설명:**  
