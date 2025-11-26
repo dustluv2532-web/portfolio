@@ -25,7 +25,7 @@
 4. 개선된 환경에서 패킷 보안성 비교
 ---
 ##  아키텍처 구성도
-![아키텍처](https://raw.githubusercontent.com/dustluv2532-web/portfolio/main/images/chat_arch.png)
+![아키텍처](https://raw.githubusercontent.com/dustluv2532-web/portfolio/main/images/chat_arch(2).png)
 
 **구성 설명:**  
 - Android App → ngrok(HTTPS 터널) → Flask 서버  
