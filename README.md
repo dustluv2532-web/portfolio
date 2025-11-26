@@ -28,7 +28,7 @@
 
 ##  아키텍처 구성도
 
-![아키텍처 구성도](./images/chat_arch.png)
+![아키텍처](https://raw.githubusercontent.com/dustluv2532-web/portfolio/main/images/chat_arch.png)
 
 **구성 설명:**  
 - Android App → ngrok(HTTPS 터널) → Flask 서버  
@@ -46,8 +46,8 @@
 Wireshark 스니핑 결과, 입력한 채팅 내용이 평문으로 확인됨.
 
 ####  채팅앱 화면 & 평문 패킷
-![채팅앱 화면](./images/chat_app.png)
-![평문 패킷](./images/plain_packet.png)
+![채팅앱 화면](https://raw.githubusercontent.com/dustluv2532-web/portfolio/main/images/chat_app.png)
+![평문 패킷](https://raw.githubusercontent.com/dustluv2532-web/portfolio/main/images/plain_packet.png)
 
 > 전송되는 모든 메시지가 평문으로 노출 → 제3자가 쉽게 도청·복호화 가능
 
@@ -77,7 +77,7 @@ Wireshark 스니핑 결과, 입력한 채팅 내용이 평문으로 확인됨.
 
 TLS 적용 후 Wireshark에서 **메시지 내용이 완전 암호화됨**
 
-![암호화된 패킷](./images/encrypted_packet.png)
+![암호화된 패킷](https://raw.githubusercontent.com/dustluv2532-web/portfolio/main/images/encrypted_packet.png)
 
 > 패킷 구조는 그대로 전달되지만, 데이터(payload)는 모두 암호화되어 확인 불가
 
